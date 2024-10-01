@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Home</title>
+    <link rel="stylesheet" href="assest/css/style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo_item">
+            <i class="bx bx-menu" id="sidebarOpen"></i>
+            <img src="https://lims.techmedology.com/theme/assets/img/AdminLTELogo.png" alt="" /><b>LIMS</b>
+        </div>
+        <div class="search_bar">
+            <input type="text" placeholder="Search" />
+        </div>
+        <div class="navbar_content">
+            <i class="bi bi-grid"></i>
+            <i class='bx bx-sun' id="darkLight"></i>
+            <i class='bx bx-bell' id="notificationIcon"></i>
+            <div class="notification-dropdown" id="notificationDropdown">
+                <p>No notifications</p>
+            </div>
+            <img src="assest/image/team1.png" alt="" class="profile" />
+        </div>
+    </nav>
+    <nav class="sidebar">
+        <div class="menu_content">
+            <ul class="menu_items">
+                <div class="menu_title menu_dahsboard"></div>
+                <li class="item">
+                    <div href="#" class="nav_link submenu_item">
+                        <span class="navlink_icon">
+                            <i class="bx bx-home-alt"></i>
+                        </span>
+                        <span class="navlink">General</span>
+                        <i class="bx bx-chevron-right arrow-left"></i>
+                    </div>
+                    <ul class="menu_items submenu">
+                        <a href="#" class="nav_link sublink">Test Group Registration</a>
+                        <a href="#" class="nav_link sublink">Test Registration</a>
+                        <a href="#" class="nav_link sublink">Attributes</a>
+                        <a href="#" class="nav_link sublink">Attribute Range</a>
+                        <a href="#" class="nav_link sublink">Test Method</a>
+                        <a href="#" class="nav_link sublink">Specimen Container</a>
+                        <a href="#" class="nav_link sublink">Specimen Type</a>
+                        <a href="#" class="nav_link sublink">Repeat Reason</a>
+                        <a href="#" class="nav_link sublink">Organisim</a>
+                        <a href="#" class="nav_link sublink">Drug</a>
+                        <a href="#" class="nav_link sublink">Organization</a>
+                    </ul>
+                </li>
+            </ul>
+            <div class="bottom_content">
+                <div class="bottom expand_sidebar">
+                    <span>Expand</span>
+                    <i class='bx bx-log-in'></i>
+                </div>
+                <div class="bottom collapse_sidebar">
+                    <span>Condense</span>
+                    <i class='bx bx-log-out'></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="assest/js/home.js"></script>
+</body>
+</html>

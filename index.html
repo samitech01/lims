@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login | LIMS</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+</head>
+<body>
+<section class="bg">
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+        <header>
+            <h1>LIMS</h1>
+            <b>Login</b>
+        </header>
+        <form id="loginForm" action="#">
+            <input type="email" id="loginEmail" placeholder="Enter your email" required>
+            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+            <div class="show-password">
+                <input type="checkbox" id="showLoginPassword"> 
+                <label for="showLoginPassword">Show Password</label>
+            </div>
+            <a href="#">Forgot password?</a>
+            <input type="button" class="button" id="loginBtn" value="Login">
+        </form>
+        <div class="signup">
+            <span>Don't have an account? <label for="check">Signup</label></span>
+        </div>
+    </div>
+    <div class="registration form">
+        <header><b>Sign in to start your session</b></header>
+        <form id="signupForm" action="#">
+            <input type="email" id="signupEmail" placeholder="Enter your email" required>
+            <input type="password" id="signupPassword" placeholder="Create a password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+            <div class="show-password">
+                <input type="checkbox" id="showSignupPassword"> 
+                <label for="showSignupPassword">Show Password</label>
+            </div>
+            <input type="button" id="signupBtn" class="button" value="Signup">
+        </form>
+        <div class="signup">
+            <span>Already have an account? <label for="check">Login</label></span>
+        </div>
+    </div>
+</div>
+</section>
+
+<script src="assest/js/script.js"></script>
+</body>
+</html>
